@@ -7,6 +7,7 @@ import {
 } from "../redux/actions/productActions";
 import Loading from "../components/Loading";
 import axios from "axios";
+import Card from "../components/Card";
 
 const MainPage = () => {
   const dispatch = useDispatch();
@@ -20,7 +21,7 @@ const MainPage = () => {
       .then((res) => dispatch(setProducts(res.data)))
       .catch((err) => dispatch(setError(res.data)));
   }, []);
-  
+
   return (
     <div>
       {/* Veriler Yükleniyor */}
@@ -28,9 +29,11 @@ const MainPage = () => {
       {/* Hata Oluştu */}
       {state.isError && <p>Üzgünüz, bir hata oluştu</p>}
       {/* Veriler Yüklendi */}
-      {state?.products.map((product) => (
-        <div>{product.urunAdi}</div>
-      ))}
+      <div className="d-flex flex-wrap gap-3 p-4 justify-content-center">
+        {state?.products.map((product) => (
+          <Card key={product.id} product={product}></Card>
+        ))}
+      </div>
     </div>
   );
 };
