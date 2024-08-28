@@ -1,4 +1,5 @@
 import { ActionTypes } from "../actionTypes/actionTypes"
+import axios from "axios"
 
 export const setLoading = () => {
     return {
@@ -17,4 +18,12 @@ export const setProducts = (payload) => {
         type: ActionTypes.SET_PRODUCTS,
         payload
     }
+}
+
+/* Redux Thunk */
+export const getProductData = () => (dispatch) => {
+    axios
+        .get("http://localhost:3000/products")
+        .then((res) => dispatch(setProducts(res.data)))
+        .catch((err) => dispatch(setError(res.data)));
 }

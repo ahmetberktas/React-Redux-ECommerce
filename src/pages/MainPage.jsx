@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
+  getProductData,
   setError,
   setLoading,
   setProducts,
@@ -8,6 +9,10 @@ import {
 import Loading from "../components/Loading";
 import axios from "axios";
 import Card from "../components/Card";
+import {
+  getBasketData,
+  setBasketLoading,
+} from "../redux/actions/basketActions";
 
 const MainPage = () => {
   const dispatch = useDispatch();
@@ -16,10 +21,9 @@ const MainPage = () => {
 
   useEffect(() => {
     dispatch(setLoading());
-    axios
-      .get("http://localhost:3000/products")
-      .then((res) => dispatch(setProducts(res.data)))
-      .catch((err) => dispatch(setError(res.data)));
+    dispatch(setBasketLoading());
+    dispatch(getProductData());
+    dispatch(getBasketData());
   }, []);
 
   return (

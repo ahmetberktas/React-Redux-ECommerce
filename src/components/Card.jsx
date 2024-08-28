@@ -1,6 +1,18 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { addToBasket } from "../redux/actions/basketActions";
 
 const Card = ({ product }) => {
+  const state = useSelector((store) => store.basketReducer);
+  const dispatch = useDispatch();
+  const found = state.basket.find((i) => i.id === product.id);
+  const handleClick = () => {
+    if(found) {
+
+    } else {
+      dispatch(addToBasket(product));
+    }
+  }
   return (
     <div className="card pt-4" style={{ width: "18rem" }}>
       <div className="d-flex justify-content-center">
@@ -16,8 +28,8 @@ const Card = ({ product }) => {
             <span>{line}</span>
           ))}
         </p>
-        <button className="btn btn-warning w-100 d-flex justify-content-between">
-            <span>Sepete Ekle</span>
+        <button onClick={handleClick} className="btn btn-warning w-100 d-flex justify-content-between">
+            <span>{found ? 'Miktarı Arttır' : 'Sepete Ekle'}</span>
             <span className="text-success fw-bold">{product.price} ₺</span>
         </button>
       </div>
