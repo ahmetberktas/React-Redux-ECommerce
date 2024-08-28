@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addToBasket } from "../redux/actions/basketActions";
+import { addToBasket, updateItem } from "../redux/actions/basketActions";
 
 const Card = ({ product }) => {
   const state = useSelector((store) => store.basketReducer);
@@ -8,7 +8,7 @@ const Card = ({ product }) => {
   const found = state.basket.find((i) => i.id === product.id);
   const handleClick = () => {
     if(found) {
-
+      dispatch(updateItem(found));
     } else {
       dispatch(addToBasket(product));
     }
@@ -29,7 +29,7 @@ const Card = ({ product }) => {
           ))}
         </p>
         <button onClick={handleClick} className="btn btn-warning w-100 d-flex justify-content-between">
-            <span>{found ? 'Miktarı Arttır' : 'Sepete Ekle'}</span>
+            <span>{found ? `${found.amount} Mikatrı Arttır` : 'Sepete Ekle'}</span>
             <span className="text-success fw-bold">{product.price} ₺</span>
         </button>
       </div>

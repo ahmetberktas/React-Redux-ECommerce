@@ -31,8 +31,10 @@ export const addToBasket = (product) => (dispatch) => {
         .catch((err) => dispatch(setBasketError()))
 }
 
-export const updateItem = () => (dispatch) => {
-
+export const updateItem = (product) => (dispatch) => {
+    axios.patch(`/basket/${product.id}`, { amount: product.amount + 1 })
+        .then(() => dispatch({ type: ActionTypes.UPDATE_ITEM, payload: product.id }))
+        .catch((err) => dispatch(setBasketError()));
 }
 
 export const removeFromBasket = () => (dispatch) => {
