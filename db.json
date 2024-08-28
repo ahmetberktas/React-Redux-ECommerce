@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "urunAdi": "Kablosuz Mouse",
       "description": "Ergonomik, ayarlanabilir DPI kablosuz mouse.",
       "brand": "Logitech",
@@ -17,7 +17,7 @@
       "image": "https://resource.logitech.com/w_572,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3s-business-wireless-mouse/gallery/mx-master-3s-for-business-gallery-1.png"
     },
     {
-      "id": 2,
+      "id": "2",
       "urunAdi": "Bluetooth Hoparlör",
       "description": "Taşınabilir, yüksek kaliteli ses sunan Bluetooth hoparlör.",
       "brand": "JBL",
@@ -33,7 +33,7 @@
       "image": "https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=85/46622/uploads/urunresimleri/buyuk/jbl-charge-5-ipx7-su-gecirmez-tasinabi-24-021.png"
     },
     {
-      "id": 3,
+      "id": "3",
       "urunAdi": "Laptop Standı",
       "description": "Soğutma fanı bulunan, ayarlanabilir laptop standı.",
       "brand": "Nillkin",
@@ -49,7 +49,7 @@
       "image": "https://i5.walmartimages.com/asr/b3f8f997-b59c-4e86-bee5-5e06ebe52469.257bcd39f5da00c684a5d592764b5483.jpeg"
     },
     {
-      "id": 4,
+      "id": "4",
       "urunAdi": "Akıllı Telefon",
       "description": "128GB depolama kapasiteli en yeni model akıllı telefon.",
       "brand": "Apple",
@@ -65,7 +65,7 @@
       "image": "https://cdn03.ciceksepeti.com/cicek/kcm13310674-1/XL/apple-iphone-14-pro-128-gb-uzay-grisi-kcm13310674-1-7390d8c021dd4b778a462719d898ee15.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "urunAdi": "Gürültü Önleyici Kulaklık",
       "description": "Kulak üstü, gürültü önleyici teknolojiye sahip kulaklık.",
       "brand": "Sony",
@@ -81,7 +81,7 @@
       "image": "https://cdn.akakce.com/z/sony/sony-wh-1000xm4b-nfc-gurultu-engelleme-ozellikli-kablosuz-kulak-ustu-siyah.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "urunAdi": "Akıllı Saat",
       "description": "Kişiselleştirilebilir saat yüzeyine sahip akıllı saat.",
       "brand": "Samsung",
@@ -97,7 +97,7 @@
       "image": "https://productimages.hepsiburada.net/s/272/424-600/110000258156945.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "urunAdi": "Oyun Klavyesi",
       "description": "RGB aydınlatmalı mekanik oyun klavyesi.",
       "brand": "Razer",
@@ -113,7 +113,7 @@
       "image": "https://productimages.hepsiburada.net/s/452/424-600/110000486815881.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "urunAdi": "4K Monitör",
       "description": "27 inç 4K UHD monitör, IPS ekranlı.",
       "brand": "Dell",
@@ -129,7 +129,7 @@
       "image": "https://resim.epey.com/428851/b_dell-u2720q-11.jpg"
     },
     {
-      "id": 9,
+      "id": "9",
       "urunAdi": "Kablosuz Şarj Cihazı",
       "description": "Akıllı telefonlar için hızlı kablosuz şarj pedi.",
       "brand": "Anker",
@@ -145,7 +145,7 @@
       "image": "https://cdn.akakce.com/z/anker/anker-powerwave-select-magnetic-magsafe-kablosuz-sarj-standi.jpg"
     },
     {
-      "id": 10,
+      "id": "10",
       "urunAdi": "Oyun Koltuğu",
       "description": "Ayarlanabilir kolçaklı ergonomik oyun koltuğu.",
       "brand": "DXRacer",
@@ -161,7 +161,7 @@
       "image": "https://cdn.akakce.com/z/dxracer/dxracer-prince-serisi-p132-siyah-kirmizi.jpg"
     },
     {
-      "id": 11,
+      "id": "11",
       "urunAdi": "Dizüstü Bilgisayar",
       "description": "Intel i7 işlemciye sahip, 16GB RAM dizüstü bilgisayar.",
       "brand": "HP",
@@ -177,7 +177,7 @@
       "image": "https://cdn03.ciceksepeti.com/cicek/kc8711843-1/XL/hp-spectre-x360-13-aw0002nt-9cu63ea-i7-1065g7-16gb-ram-1tb-ssd-13-3--fhd-dokunmatik-windows-10-kc8711843-1-894290e4a1c14bbd98771049304ae9b5.jpg"
     },
     {
-      "id": 12,
+      "id": "12",
       "urunAdi": "Harici SSD",
       "description": "1TB kapasiteli hızlı veri transferi sağlayan harici SSD.",
       "brand": "Samsung",
@@ -193,7 +193,7 @@
       "image": "https://cdn.akakce.com/samsung/samsung-t7-1-tb-2-5-ssd-usb-3-2-tasinabilir-disk-z.jpg"
     },
     {
-      "id": 13,
+      "id": "13",
       "urunAdi": "Kablosuz Kulaklık",
       "description": "Bluetooth kulaklık, yüksek ses kalitesi ve uzun pil ömrü.",
       "brand": "Beats",
@@ -209,7 +209,7 @@
       "image": "https://cdn.akakce.com/beats/beats-powerbeats-pro-totally-wireless-kulak-ici-kablosuz-kirmizi-z.jpg"
     },
     {
-      "id": 14,
+      "id": "14",
       "urunAdi": "USB Bellek",
       "description": "64GB kapasiteli USB 3.0 bellek.",
       "brand": "SanDisk",
@@ -225,7 +225,7 @@
       "image": "https://cdn.cimri.io/image/280x280/sandisk-cruzer-blade-sdcz50-064g-b35-64gb-flash-bellek_677624593.jpg"
     },
     {
-      "id": 15,
+      "id": "15",
       "urunAdi": "Yapay Zeka Kamera",
       "description": "Yapay zeka destekli güvenlik kamerası.",
       "brand": "Google",
@@ -241,7 +241,7 @@
       "image": "https://m.media-amazon.com/images/I/51+vNUPVoyL._AC_SY355_.jpg"
     },
     {
-      "id": 16,
+      "id": "16",
       "urunAdi": "Mekanik Klavye",
       "description": "Renkli arka aydınlatmalı mekanik klavye.",
       "brand": "Corsair",
@@ -257,7 +257,7 @@
       "image": "https://m.media-amazon.com/images/I/7193Jl8PejL._AC_SL1500_.jpg"
     },
     {
-      "id": 17,
+      "id": "17",
       "urunAdi": "Oyun Monitörü",
       "description": "144Hz yenileme hızına sahip oyun monitörü.",
       "brand": "Acer",
@@ -273,7 +273,7 @@
       "image": "https://i.ebayimg.com/images/g/Ht0AAOSwuw9hsNvl/s-l500.jpg"
     },
     {
-      "id": 18,
+      "id": "18",
       "urunAdi": "Yüzey Temizleme Spreyi",
       "description": "Ekran ve yüzeyler için temizleme spreyi.",
       "brand": "Techclean",
@@ -289,7 +289,7 @@
       "image": "https://m.media-amazon.com/images/I/71SCNAipTtL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
     },
     {
-      "id": 19,
+      "id": "19",
       "urunAdi": "Web Kamerası",
       "description": "1080p HD görüntü kalitesine sahip web kamerası.",
       "brand": "Logitech",
@@ -305,7 +305,7 @@
       "image": "https://cdn.akakce.com/logitech/logitech-c920-960-001055-mikrofonlu-z.jpg"
     },
     {
-      "id": 20,
+      "id": "20",
       "urunAdi": "Bilgisayar Hoparlörü",
       "description": "2.1 kanal, yüksek ses kalitesine sahip bilgisayar hoparlörü.",
       "brand": "Creative",
@@ -321,7 +321,7 @@
       "image": "https://productimages.hepsiburada.net/s/67/424-600/110000009219300.jpg"
     },
     {
-      "id": 21,
+      "id": "21",
       "urunAdi": "Yüzük Tipi USB Bellek",
       "description": "16GB kapasiteli yüzük tipi USB bellek.",
       "brand": "Kingston",
@@ -337,7 +337,7 @@
       "image": "https://m.media-amazon.com/images/I/710AjaRYtFL.__AC_SY300_SX300_QL70_ML2_.jpg"
     },
     {
-      "id": 22,
+      "id": "22",
       "urunAdi": "Yapay Zeka Asistanı",
       "description": "Evde yardımcı olabilecek yapay zeka destekli asistan.",
       "brand": "Amazon",
@@ -353,7 +353,7 @@
       "image": "https://productimages.hepsiburada.net/s/317/424-600/110000311578810.jpg"
     },
     {
-      "id": 23,
+      "id": "23",
       "urunAdi": "Güç Bankası",
       "description": "10,000mAh kapasiteli taşınabilir güç bankası.",
       "brand": "Anker",
@@ -369,7 +369,7 @@
       "image": "https://cdn.cimri.io/image/280x280/anker-powercore-10000-mah-2-4-a-tek-cikisli-tasinabilir-sarj-cihazi-siyah_470856819.jpg"
     },
     {
-      "id": 24,
+      "id": "24",
       "urunAdi": "Oyun Kulaklığı",
       "description": "Düşük gecikmeli, surround sesli oyun kulaklığı.",
       "brand": "SteelSeries",
@@ -385,7 +385,7 @@
       "image": "https://m.media-amazon.com/images/I/51nhuBhbaeL._AC_SY550_.jpg"
     },
     {
-      "id": 25,
+      "id": "25",
       "urunAdi": "Cep Telefonu Kılıfı",
       "description": "Şeffaf, darbelere karşı koruyucu cep telefonu kılıfı.",
       "brand": "Spigen",
@@ -401,7 +401,7 @@
       "image": "https://m.media-amazon.com/images/I/61OeHufynfL.__AC_SX300_SY300_QL70_ML2_.jpg"
     },
     {
-      "id": 26,
+      "id": "26",
       "urunAdi": "Çift Ekranlı Tablet",
       "description": "İki ekranı ile üretkenliği artıran tablet.",
       "brand": "Microsoft",
@@ -417,7 +417,7 @@
       "image": "https://m.media-amazon.com/images/I/711UVfyz+FL._AC_SX300_SY300_.jpg"
     },
     {
-      "id": 27,
+      "id": "27",
       "urunAdi": "Akıllı Ev Termostatı",
       "description": "Ev sıcaklığını akıllı telefonla kontrol etmenizi sağlar.",
       "brand": "Nest",
@@ -433,7 +433,7 @@
       "image": "https://cdn.akakce.com/z/google/google-nest-learning-smart-thermostat-3rd-generation-akilli.jpg"
     },
     {
-      "id": 28,
+      "id": "28",
       "urunAdi": "4K Televizyon",
       "description": "55 inç 4K UHD televizyon, HDR desteği.",
       "brand": "Samsung",
@@ -449,7 +449,7 @@
       "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/samsung/thumb/128595-2_large.jpg"
     },
     {
-      "id": 29,
+      "id": "29",
       "urunAdi": "Kahve Makinesi",
       "description": "12 fincanlık programlanabilir kahve makinesi.",
       "brand": "Philips",
@@ -465,7 +465,7 @@
       "image": "https://m.media-amazon.com/images/I/81-cwgTbOEL.__AC_SX300_SY300_QL70_ML2_.jpg"
     },
     {
-      "id": 30,
+      "id": "30",
       "urunAdi": "Toz Torbasız Süpürge",
       "description": "Kablolu, güçlü emiş gücüne sahip toz torbasız süpürge.",
       "brand": "Dyson",
@@ -481,7 +481,7 @@
       "image": "https://cdn.akakce.com/z/dyson/dyson-v11-dikey.jpg"
     },
     {
-      "id": 31,
+      "id": "31",
       "urunAdi": "Oyun Bilgisayarı",
       "description": "RTX 3080 ekran kartına sahip yüksek performanslı oyun bilgisayarı.",
       "brand": "Asus",
@@ -497,7 +497,7 @@
       "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/asus/thumb/140225-1_large.jpg"
     },
     {
-      "id": 32,
+      "id": "32",
       "urunAdi": "Yüksek Kapasiteli Harici HDD",
       "description": "4TB kapasiteli, yüksek hızlı harici HDD.",
       "brand": "Western Digital",
@@ -513,7 +513,7 @@
       "image": "https://m.media-amazon.com/images/I/61k+4mo5bNL._AC_SY300_SX300_.jpg"
     },
     {
-      "id": 33,
+      "id": "33",
       "urunAdi": "E-Book Okuyucu",
       "description": "Göz yorgunluğunu azaltan ekranı ile e-kitap okuyucu.",
       "brand": "Amazon",
@@ -529,7 +529,7 @@
       "image": "https://productimages.hepsiburada.net/s/777/424-600/110000643765043.jpg"
     },
     {
-      "id": 34,
+      "id": "34",
       "urunAdi": "Dijital Fotoğraf Makinesi",
       "description": "24.2 MP çözünürlüğe sahip dijital fotoğraf makinesi.",
       "brand": "Nikon",
@@ -545,7 +545,7 @@
       "image": "https://cdn.akakce.com/nikon/nikon-d5600-18-55-mm-lens-dijital-slr-fotograf-makinesi-z.jpg"
     },
     {
-      "id": 35,
+      "id": "35",
       "urunAdi": "Ekran Koruyucu",
       "description": "Akıllı telefonlar için şeffaf ekran koruyucu.",
       "brand": "Zagg",
@@ -561,7 +561,7 @@
       "image": "https://m.media-amazon.com/images/I/71rZqMUSG3L.__AC_SX300_SY300_QL70_ML2_.jpg"
     },
     {
-      "id": 36,
+      "id": "36",
       "urunAdi": "Güçlü El Blenderı",
       "description": "Yüksek devirli, çok fonksiyonlu el blenderı.",
       "brand": "Braun",
@@ -577,7 +577,7 @@
       "image": "https://m.media-amazon.com/images/I/61IPdj8WD1L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
     },
     {
-      "id": 37,
+      "id": "37",
       "urunAdi": "Dijital Termometre",
       "description": "Hızlı ve doğru ölçüm yapan dijital termometre.",
       "brand": "Omron",
@@ -593,7 +593,7 @@
       "image": "https://cdn03.ciceksepeti.com/cicek/kcm95737529-1/XL/omron-mc-246-e-eco-temp-basic-ates-olcer-kcm95737529-1-6d01523df69b4e249e9b55bca8d98d9b.jpg"
     },
     {
-      "id": 38,
+      "id": "38",
       "urunAdi": "Çok Fonksiyonlu Renkli Yazıcı",
       "description": "Renkli ve siyah-beyaz baskı yapabilen çok fonksiyonlu yazıcı.",
       "brand": "Canon",
@@ -609,7 +609,7 @@
       "image": "https://m.media-amazon.com/images/I/6152pLoeqIL.__AC_SX300_SY300_QL70_ML2_.jpg"
     },
     {
-      "id": 39,
+      "id": "39",
       "urunAdi": "Kablosuz Şarj Standı",
       "description": "Telefonlar için hızlı kablosuz şarj standı.",
       "brand": "Belkin",
@@ -625,7 +625,7 @@
       "image": "https://productimages.hepsiburada.net/s/777/424-600/110000654084788.jpg"
     },
     {
-      "id": 40,
+      "id": "40",
       "urunAdi": "Dış Mekan Hoparlörü",
       "description": "Hava koşullarına dayanıklı dış mekan hoparlörü.",
       "brand": "Bose",
@@ -641,7 +641,7 @@
       "image": "https://cdn.akakce.com/z/bose/bose-soundlink-flex-mavi.jpg"
     },
     {
-      "id": 41,
+      "id": "41",
       "urunAdi": "Küçük Elektrikli Süpürge",
       "description": "Küçük, hafif ve taşınabilir elektrikli süpürge.",
       "brand": "Xiaomi",
@@ -657,7 +657,7 @@
       "image": "https://productimages.hepsiburada.net/s/33/424-600/10419312623666.jpg"
     },
     {
-      "id": 42,
+      "id": "42",
       "urunAdi": "Yüksek Performanslı Fan",
       "description": "Sessiz çalışma özelliğine sahip yüksek performanslı fan.",
       "brand": "Dyson",
@@ -673,7 +673,7 @@
       "image": "https://m.media-amazon.com/images/I/518t6c1JQDL.__AC_SX300_SY300_QL70_ML2_.jpg"
     },
     {
-      "id": 43,
+      "id": "43",
       "urunAdi": "Kapsül Kahve Makinesi",
       "description": "Kapsül kahve makineleri için uyumlu kahve makinesi.",
       "brand": "Nespresso",
@@ -689,7 +689,7 @@
       "image": "https://i5.walmartimages.com/seo/Nespresso-Vertuo-Plus-Coffee-and-Espresso-Maker-by-De-Longhi-Black_b80b2bf3-f47c-494d-be9c-bd5b548760f9.b4bcbb88b02aaef77b5df4c697c22ab4.jpeg"
     },
     {
-      "id": 44,
+      "id": "44",
       "urunAdi": "Akıllı Termometre",
       "description": "Akıllı telefonla senkronize olabilen dijital termometre.",
       "brand": "Withings",
@@ -705,7 +705,7 @@
       "image": "https://m.media-amazon.com/images/I/51Akh156F7L.__AC_SX300_SY300_QL70_ML2_.jpg"
     },
     {
-      "id": 45,
+      "id": "45",
       "urunAdi": "Taşınabilir Klima",
       "description": "Küçük odalar için taşınabilir klima ünitesi.",
       "brand": "Midea",
@@ -721,7 +721,7 @@
       "image": "https://mitosshoppers.com/wp-content/uploads/2022/07/midea-ihp-split-ac.jpg"
     },
     {
-      "id": 46,
+      "id": "46",
       "urunAdi": "Su Şişesi",
       "description": "500 ml kapasiteli BPA içermeyen su şişesi.",
       "brand": "Hydro Flask",
@@ -739,7 +739,7 @@
   ],
   "basket": [
     {
-      "id": 1,
+      "id": "1",
       "urunAdi": "Kablosuz Mouse",
       "description": "Ergonomik, ayarlanabilir DPI kablosuz mouse.",
       "brand": "Logitech",
@@ -753,10 +753,10 @@
       ],
       "category": "Elektronik",
       "image": "https://resource.logitech.com/w_572,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3s-business-wireless-mouse/gallery/mx-master-3s-for-business-gallery-1.png",
-      "amount": 1
+      "amount": 4
     },
     {
-      "id": 2,
+      "id": "2",
       "urunAdi": "Bluetooth Hoparlör",
       "description": "Taşınabilir, yüksek kaliteli ses sunan Bluetooth hoparlör.",
       "brand": "JBL",
@@ -770,6 +770,23 @@
       ],
       "category": "Elektronik",
       "image": "https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=85/46622/uploads/urunresimleri/buyuk/jbl-charge-5-ipx7-su-gecirmez-tasinabi-24-021.png",
+      "amount": 3
+    },
+    {
+      "id": "4",
+      "urunAdi": "Akıllı Telefon",
+      "description": "128GB depolama kapasiteli en yeni model akıllı telefon.",
+      "brand": "Apple",
+      "model": "iPhone 14",
+      "price": 23999,
+      "stock": 50,
+      "color": "Uzay Grisi",
+      "property": [
+        "5G destekli",
+        "iOS işletim sistemi"
+      ],
+      "category": "Mobil",
+      "image": "https://cdn03.ciceksepeti.com/cicek/kcm13310674-1/XL/apple-iphone-14-pro-128-gb-uzay-grisi-kcm13310674-1-7390d8c021dd4b778a462719d898ee15.jpg",
       "amount": 1
     }
   ]

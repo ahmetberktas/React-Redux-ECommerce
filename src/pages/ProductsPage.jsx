@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
   getBasketData,
@@ -14,7 +14,7 @@ const ProductsPage = () => {
   useEffect(() => {
     dispatch(setBasketLoading());
     dispatch(getBasketData());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="container">

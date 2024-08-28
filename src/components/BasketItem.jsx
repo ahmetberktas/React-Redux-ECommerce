@@ -1,4 +1,3 @@
-import React from "react";
 import { useDispatch } from "react-redux";
 import { updateItem } from "../redux/actions/basketActions";
 
