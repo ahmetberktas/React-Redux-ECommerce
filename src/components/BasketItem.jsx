@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { updateItem } from "../redux/actions/basketActions";
+import { removeFromBasket, updateItem } from "../redux/actions/basketActions";
 
 const BasketItem = ({ item }) => {
   const dispatch = useDispatch();
@@ -25,6 +25,12 @@ const BasketItem = ({ item }) => {
           className="btn btn-sm btn-success"
         >
           +
+        </button>
+        <button
+          onClick={() => dispatch(removeFromBasket(item.id))}
+          className="btn btn-sm btn-danger"
+        >
+          X
         </button>
       </div>
     </div>

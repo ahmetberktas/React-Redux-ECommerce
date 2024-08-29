@@ -26,6 +26,10 @@ const basketReducer = (state = initialState, { type, payload }) => {
       });
       return { ...state, basket: newItems };
     }
+    case ActionTypes.REMOVE_FROM_BASKET: {
+      const filtered = state.basket.filter((i) => i.id !== payload);
+      return { ...state, basket: filtered };
+    }
     default:
       return state;
   }

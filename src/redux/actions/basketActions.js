@@ -52,4 +52,11 @@ export const updateItem = (product) => (dispatch) => {
     .catch(() => dispatch(setBasketError()));
 };
 
-export const removeFromBasket = () => (dispatch) => {};
+export const removeFromBasket = (deleteId) => (dispatch) => {
+  axios
+    .delete(`/basket/${deleteId}`)
+    .then(() =>
+      dispatch({ type: ActionTypes.REMOVE_FROM_BASKET, payload: deleteId })
+    )
+    .catch(() => dispatch(setBasketError()));
+};

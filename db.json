@@ -739,54 +739,20 @@
   ],
   "basket": [
     {
-      "id": "1",
-      "urunAdi": "Kablosuz Mouse",
-      "description": "Ergonomik, ayarlanabilir DPI kablosuz mouse.",
-      "brand": "Logitech",
-      "model": "MX Master 3",
-      "price": 450.99,
-      "stock": 150,
-      "color": "Siyah",
+      "id": "3",
+      "urunAdi": "Laptop Standı",
+      "description": "Soğutma fanı bulunan, ayarlanabilir laptop standı.",
+      "brand": "Nillkin",
+      "model": "ProDesk",
+      "price": 299.99,
+      "stock": 200,
+      "color": "Gri",
       "property": [
-        "Bluetooth bağlantısı",
-        "Uzun pil ömrü"
+        "Hafif ve taşınabilir",
+        "Soğutma fanı"
       ],
-      "category": "Elektronik",
-      "image": "https://resource.logitech.com/w_572,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3s-business-wireless-mouse/gallery/mx-master-3s-for-business-gallery-1.png",
-      "amount": 4
-    },
-    {
-      "id": "2",
-      "urunAdi": "Bluetooth Hoparlör",
-      "description": "Taşınabilir, yüksek kaliteli ses sunan Bluetooth hoparlör.",
-      "brand": "JBL",
-      "model": "Charge 5",
-      "price": 749.5,
-      "stock": 85,
-      "color": "Mavi",
-      "property": [
-        "Suya dayanıklı",
-        "20 saat pil ömrü"
-      ],
-      "category": "Elektronik",
-      "image": "https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=85/46622/uploads/urunresimleri/buyuk/jbl-charge-5-ipx7-su-gecirmez-tasinabi-24-021.png",
-      "amount": 3
-    },
-    {
-      "id": "4",
-      "urunAdi": "Akıllı Telefon",
-      "description": "128GB depolama kapasiteli en yeni model akıllı telefon.",
-      "brand": "Apple",
-      "model": "iPhone 14",
-      "price": 23999,
-      "stock": 50,
-      "color": "Uzay Grisi",
-      "property": [
-        "5G destekli",
-        "iOS işletim sistemi"
-      ],
-      "category": "Mobil",
-      "image": "https://cdn03.ciceksepeti.com/cicek/kcm13310674-1/XL/apple-iphone-14-pro-128-gb-uzay-grisi-kcm13310674-1-7390d8c021dd4b778a462719d898ee15.jpg",
+      "category": "Aksesuarlar",
+      "image": "https://i5.walmartimages.com/asr/b3f8f997-b59c-4e86-bee5-5e06ebe52469.257bcd39f5da00c684a5d592764b5483.jpeg",
       "amount": 1
     }
   ]
